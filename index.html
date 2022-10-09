@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+   
+    
+    <title>Trabajo practico Bootstrap</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Codo a Codo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Desactivado</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section>
+
+            <div class="card-group">
+                <div class="card">
+                <img src="assets/media/HTML.jpg" class="card-img-top" alt="HTML">
+                <div class="card-body">
+                    <h5 class="card-title">Título 1</h5>
+                    <p class="card-text">Contenido de card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="assets/media/CSS.jpg" class="card-img-top" alt="CSS">
+                <div class="card-body">
+                    <h5 class="card-title">Título 2</h5>
+                    <p class="card-text">Contenido de la card</p>
+                    <p class="card-text"><small class="text-muted">Útima actualización 1</small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="assets/media/Bootstrap.jpg" class="card-img-top" alt="BOOTSTRAP">
+                <div class="card-body">
+                    <h5 class="card-title">Título 3</h5>
+                    <p class="card-text">Contenido de la card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="mb-3 px-2">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+                <p class="card-text"><small class="text-muted">Nunca comparta su email.</small></p>
+              </div>
+              <div class="mb-3 px-2">
+                <label for="exampleFormControlPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleFormControlPassword1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Verificar
+                </label>
+              </div>
+              <button type="button" class="btn btn-primary">Enviar</button>
+        </section>
+    </main>
+    
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
